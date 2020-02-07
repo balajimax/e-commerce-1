@@ -1,0 +1,190 @@
+.logo {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo img {
+    width: 190px;
+}
+
+.banner {
+    background-image: url('../images/banner.jpg');
+    background-size: cover;
+}
+
+.banner-text {
+    text-align: center;
+    float: right;
+    margin-right: 20%;
+    padding-top: 110px;
+    padding-bottom: 110px;
+}
+
+.banner h3 {
+    color: rgb(19, 73, 178);
+    font-size: 40px;
+}
+
+.banner h2 {
+    color: rgb(51, 51, 51);
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: #d9121f;
+    border-radius: 19px;
+    border: none;
+    color: #fff;
+    font-size: 11px;
+    padding: 11px 38px;
+    font-weight: bold;
+}
+
+.banner p {}
+
+.category {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-size: cover;
+}
+
+.category-1 {
+    background-image: url(../images/category-1.jpg);
+}
+
+.category-2 {
+    background-image: url(../images/category-2.jpg);
+}
+
+.category-3 {
+    background-image: url(../images/category-3.jpg);
+}
+
+.category .category-text {
+    text-align: center;
+    padding-left: 40px;
+    width: 200px;
+}
+
+.category h3 {
+    font-size: 23px;
+    color: #000;
+    padding-bottom: 10px;
+}
+
+.btn-secondary {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    border-radius: 15px;
+    padding: 6px 17px;
+    font-size: 11px;
+}
+
+.pro-detail {}
+
+.pro-detail h4 {}
+
+.pro-detail h4 a {
+    font-size: 11px;
+    font-weight: bold;
+    color: #000;
+}
+
+.pro-detail h4 a:hover {
+    color: red;
+}
+
+.pro-detail p {
+    font-size: 14px;
+    font-weight: bold;
+    color: rgb(19, 73, 178);
+}
+
+.btn-cart {
+    border: solid 1px #cacaca;
+    font-size: 13px;
+    border-radius: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1.2px;
+}
+
+.btn-cart i {
+    font-size: 20px;
+}
+
+.product {
+    position: relative;
+}
+
+.pro-highlight {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.pro-varient,
+.pro-discount {
+    background-color: #d9121f;
+    color: #fff;
+    font-size: 12px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+
+.pro-discount {
+    background-color: blue;
+}
+
+.pro-action {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 40px;
+    display: none;
+}
+
+.product:hover .pro-action {
+    display: block;
+}
+
+.pro-actions .btn {
+    background: #fff;
+    color: #000;
+    border-radius: 50%;
+    padding: 7px;
+    width: 36px;
+    height: 36px;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.pro-actions .btn:hover {
+    background-color: crimson;
+    color: #fff;
+}
+
+.row {
+    padding-top: 15px;
+}
+
+.quick-1 {
+    background-size: cover;
+    background-image: url(../images/always-trendy.jpg);
+    height: 350px;
+    padding-left: 100px;
+    padding-top: 150px;
+}
+
+.quick-2 {
+    background-size: cover;
+    background-image: url(../images/modern-blue.jpg);
+    height: 350px;
+    padding right: 500px;
+    padding top: 150px;
+}
+
+
+}
