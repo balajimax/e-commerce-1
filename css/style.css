@@ -1,9 +1,4 @@
-.logo {
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-.logo img {
+.header .logo img {
     width: 190px;
 }
 
@@ -150,15 +145,27 @@
     display: block;
 }
 
+.pro-image {
+    position: relative;
+}
+
+.pro-actions {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
 .pro-actions .btn {
     background: #fff;
     color: #000;
     border-radius: 50%;
-    padding: 7px;
-    width: 36px;
-    height: 36px;
+    padding: 0px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
     margin-bottom: 6px;
-    font-size: 18px;
+    font-size: 15px;
 }
 
 .pro-actions .btn:hover {
@@ -304,4 +311,80 @@
 
 .content-list .nav-link:hover {
     color: #fff;
+}
+
+.blog-img {
+    position: relative;
+}
+
+.blog-product {
+    position: absolute;
+    top: 0px;
+    left: 150px;
+    background-color: rgb(235, 35, 35);
+    color: white;
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.header .nav-item {
+    padding: 20px 0 20px 40px;
+    font-size: 25px;
+}
+
+.header .logo {
+    padding: 18px 0;
+}
+
+.product-list .nav-link {
+    font-size: 18px;
+    padding-right: 30px;
+}
+
+.main-menu {
+    padding: 15px 0;
+}
+
+.sec-banner {
+    background-color: silver;
+    padding: 60px 0 60px 0;
+}
+
+.sec-product .nav-link {
+    font-size: 15px;
+}
+
+.nav-item .form-control {
+    border-radius: 20px;
+}
+
+.menu-list .nav-link {
+    font-size: 15px;
+}
+
+.collapse .nav-link {
+    font-size: 13px;
+    color: black;
+}
+
+.price-list label {
+    margin-bottom: 7px;
+}
+
+.brand-list label {
+    margin-bottom: 7px;
+}
+
+.inner-product-list {
+    padding: 0;
+}
+
+.inner-product-list .product {
+    margin-bottom: 40px;
+}
+
+.inner-product {
+    padding: 50px 0 50px;
 }
